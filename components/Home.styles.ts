@@ -6,7 +6,7 @@ export const Child = styled("div", {
 
 export const Box = styled("div", {});
 
-export const HomeRoot = styled(Box, {
+export const HomeRoot = styled("div", {
   height: "50px",
 
   [`& ${Child}`]: {
